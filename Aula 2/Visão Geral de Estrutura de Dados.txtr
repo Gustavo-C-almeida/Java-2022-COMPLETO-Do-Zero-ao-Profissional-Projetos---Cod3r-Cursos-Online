@@ -1,0 +1,95 @@
+"dados" referem-se a informações ou valores que são utilizados como entrada ou processados durante a execução do algoritmo. Os dados podem incluir números, textos, booleanos e outras representações de informações. Esses dados são manipulados por meio de operações e decisões para resolver um problema específico ou realizar uma tarefa determinada. O tipo, formato e natureza dos dados dependem do contexto do algoritmo e do problema que está sendo abordado. O uso correto e eficaz dos dados é fundamental para criar algoritmos precisos e funcionais.
+
+
+Exemplos de dados:
+Números Inteiros: Idade de uma pessoa (28), quantidade de itens em estoque (150), número de alunos em uma turma (30).
+Números de Ponto Flutuante: Peso de um objeto (65.5 kg), altura de uma pessoa (1.75 metros), porcentagem de desconto (10.5%).
+Strings (Cadeias de Caracteres): Nome de um cliente ("João Silva"), endereço de entrega ("123 Rua Principal"), mensagem de saudação ("Olá, mundo!").
+Booleanos: Status de aprovação (verdadeiro), disponibilidade de um produto (falso), confirmação de inscrição (verdadeiro).
+Caracteres: Letra inicial de um nome ("A"), símbolo de moeda ("$"), caractere especial ("#").
+Datas e Horários: Data de nascimento (1990-05-15), horário de início de uma reunião (15:30), prazo de entrega (2023-09-01).
+Listas ou Arrays: Lista de notas de um aluno ([8, 7, 9, 6, 10]), coordenadas de pontos ([3.5, 2.0], [7.1, 8.5]).
+Estruturas de Dados Complexas: Informações do cliente ({"nome": "Maria", "idade": 32, "email": "maria@example.com"}), registro de um funcionário ({"nome": "Carlos", "cargo": "Gerente"}).
+Entradas de Arquivos: Conteúdo de um arquivo de texto (texto de um livro), dados de uma imagem (formato de arquivo binário).
+Valores de Sensores ou Dispositivos: Temperatura ambiente medida por um sensor (25.5°C), clique de botão em um aplicativo (evento de entrada do usuário).
+
+Inicialmente a estrutura de dados visa organizar e administrar os dados
+
+Existem dados que não precisam ter uma ordem certa, Lista de tarefas, Na lista de tarefas as tarefas não precisam necessariamente estar organizadas conforme você vai fazendo as tarefas você só vai riscando as que você já fez.
+
+Porém a maioria das listas são organizadas, Uma lista de aprovados no vestibular tem uma ordem de ranking, Se apenas os primeiros 50 tem a chance da vaga então é uma lista que precisa ser ordenada, A estrutura de dados vai garantir que essa ordem Esteja correta
+
+Número três não é uma estrutura de dados, é apenas um dado ,porém definir o número 3 como inteiro é uma forma de estruturação de dados.
+
+Imagine uma lista telefônica, onde cada entrada contém o nome de uma pessoa e seu número de telefone. Essa lista é uma estrutura de dados simples chamada "lista" ou "array", onde cada elemento (entrada) contém dois campos (nome e número de telefone). Essa estrutura permite acesso rápido às informações de uma pessoa específica sem a necessidade de procurar em toda a lista. Isso ilustra como estruturas de dados ajudam a organizar e otimizar o gerenciamento de informações em algoritmos e sistemas.
+
+Esse exemplo se encaixa na estrutura de dados chamada de "árvore". Imagine o Windows Explorer com a estrutura de pastas que você descreveu:
+
+Pasta Músicas
+Pasta Rap
+Pasta Rock
+Pasta Beatles
+Arquivo: Yellow Submarine.mp3
+Pasta Funk
+Nesse cenário, a estrutura de dados é semelhante a uma árvore. A pasta "Músicas" é a raiz da árvore e tem subpastas como "Rap", "Rock" e "Funk". A subpasta "Rock" tem uma subpasta "Beatles" que, por sua vez, contém o arquivo "Yellow Submarine.mp3". Essa organização em árvore permite que você acesse e gerencie facilmente os diferentes tipos de músicas e arquivos em subpastas específicas, de maneira organizada. Isso é análogo ao uso de estruturas de dados em algoritmos para organizar e acessar informações de maneira eficiente.
+
+Aqui está um exemplo de uma estrutura de dados em forma de tabela:
+
+Considere uma tabela de registros de alunos, onde cada linha representa um aluno e cada coluna contém informações específicas sobre o aluno:
+
+Número de Matrícula	Nome	Idade	Nota Final
+101	Maria Silva	20	8.5
+102	João Santos	22	7.2
+103	Pedro Almeida	21	9.0
+Neste exemplo, a tabela é uma estrutura de dados que organiza os registros dos alunos. Cada linha representa um aluno e contém informações como número de matrícula, nome, idade e nota final. As colunas fornecem categorias diferentes de dados para cada aluno. Essa estrutura de dados tabular é eficaz para armazenar e acessar informações de alunos de forma organizada e rápida, permitindo consultas e manipulações convenientes.
+
+exemplos de estruturas de dados básicas usando diferentes tipos de dados em linguagens de programação:
+
+Inteiro (int):
+python
+idade = 25
+
+Ponto Flutuante (float):
+python
+altura = 1.75
+
+String (str):
+python
+nome = "Alice"
+
+Booleano (bool):
+python
+esta_chovendo = True
+
+Lista (list):
+python
+numeros = [1, 2, 3, 4, 5]
+
+Tupla (tuple):
+python
+coordenadas = (10, 20)
+
+Dicionário (dict):
+python
+Copy code
+aluno = {"nome": "João", "idade": 22, "nota": 8.7}
+Conjunto (set):
+
+python
+Copy code
+numeros_unicos = {1, 2, 3, 4, 5}
+
+Pilha (stack):
+markdown
+Copy code
+|   4   |
+|   3   |
+|   2   |
+|___1___|
+
+
+Fila (queue):
+<-  1  2  3  4  5 <-
+
+
+Uma estrutura de dados é uma maneira organizada de armazenar e gerenciar informações em programas de computador. Imagine uma caixa com compartimentos, cada um destinado a um tipo específico de dado, como números, palavras ou listas. Essa organização facilita o acesso e a manipulação dos dados de forma eficiente. É como ter ferramentas organizadas em diferentes gavetas para facilitar o uso. Estruturas de dados ajudam a otimizar o desempenho dos algoritmos, permitindo que os programas processem informações de maneira rápida e lógica.

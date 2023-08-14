@@ -1,0 +1,99 @@
+Algoritmo é uma sequencia de passos, Um algoritmo é como uma receita de bolo:
+um conjunto claro e sequencial de passos que guiam você na criação do bolo.
+Da mesma forma, um algoritmo é uma série de instruções que orientam um computador
+a resolver um problema específico, passo a passo.
+Dentro da sequencia de passos voce tem a questão da repetição:
+
+documento assinado começa sendo 0
+ex: tem documento ainda? res: sim,
+pega o documento e assina.
+documento assinado é igual documento assinado + 1
+documento assinado passa a ser 1
+
+dentro da sequencia de passos é possivel que você não tenha repetição nenhuma vez,
+ou que tenha muitas repetições.
+
+vai chegar um momento que não tera mais documentos para assinar e a assinatura de documentos pode ser interrompida.
+
+você pode escolher exatamente quantas vezes você repete uma tarefa ex: quero repitir exatamente 10 vezes um pulo.
+ou escolher repitir uma tarefa até o sol se por ex: quero repitir um pulo até que o sol se ponha.
+
+também temos uma situação condicional que é:
+
+temos um passo A que só vai acontecer se tal situação for satisfeita, caso não, seguimos normalmente e deixados e executar.
+ ou se der determinada condição exercutar o passo A, se outra, Executar o passo B.
+ nessa situação condicional, nunca que o passo A será executado junto com o passo B.
+
+ vamos ver uma representação de algoritos para se vestir:
+
+algoritmo 1: cueca>meia>sapato>calça>camisa
+Esse algoritmo pode até dar certo no fim das contas, porém o processo dele está errado, colocar o sapato antes da calça dificulta.
+algoritmo 2: calça> meia> sapato> cueca> camisa
+parece que foi corrigida a parte de vestir o sapato, porém teve mais um erro que foi pior ainda, vestir a cueca depois da calça? ai já não foi questão de errar o processo, mas sim que foi um erro totalmente grotesco, o que gera um bug.
+algoritmo 3: Cueca>calça>meia>sapato>camisa
+Isso foi um exemplo de integração entre algoritmo e os dados,
+Todas as linguagens usam os dados e usam os comportamentos ou algoritmos.
+
+Então no processo de algoritmo tem uma entrada ou seja os dados, o processamento que é chamado algoritmo, O algoritmo que Fazemos uma sequência de passos usando os dados que recebemos que vão fazer nós chegarmos no objetivo, a saída que o resultado do algoritmo.
+
+Você tem os ingredientes para fazer um brigadeiro que é o leite condensado o achocolatado e a manteiga, É feito uma receita uma sequência de passos para que no final Gere o resultado que é o brigadeiro
+
+Um algoritmo chamado soma de dois números temos a entrada que é o número a e o número b e temos o resultado que é a + b.
+
+Então tem algoritmos que recebem entradas e não tem nenhuma saída.
+ex:  ao final do processamento é armazenado o resultado em uma Variável
+
+Existem algoritmos que não recebem entradas e geram saídas.
+
+Podemos representar um algoritmo através de fluxograma, linguagem natural, linguagem artificial e pseudolinguagem
+
+fluxograma:
+Um fluxograma é uma representação gráfica de um processo ou algoritmo, usando símbolos para mostrar a sequência de etapas. Os símbolos incluem início/fim, decisões, processos e conexões. Setas indicam a direção do fluxo. É usado para visualizar e planejar procedimentos de forma clara e lógica, auxiliando na compreensão de processos complexos. É amplamente utilizado em programação, negócios e engenharia para documentar e comunicar sequências de ações.
+
+ex: [Inicio] --> [Leia nota1]
+         --> [Leia nota2]
+         --> [media <- (nota1 + nota2) / 2]
+         --> [Escreva "A média é: ", media]
+         --> [Fim]
+
+linguagem natural:
+Linguagem natural em algoritmos refere-se à forma como as instruções são expressas em uma linguagem compreensível por humanos, similar à linguagem cotidiana. Isso torna os algoritmos mais legíveis e acessíveis, facilitando o entendimento de como um processo é executado. O uso de linguagem natural ajuda programadores a criar algoritmos claros e eficientes, pois os passos são expressos de maneira intuitiva, o que contribui para a comunicação e colaboração entre equipes de desenvolvimento.
+ex: Algoritmo para calcular a média de duas notas:
+- Peça para o usuário digitar a primeira nota.
+- Peça para o usuário digitar a segunda nota.
+- Calcule a média somando as duas notas e dividindo por 2.
+- Mostre a mensagem "A média é: " seguida pelo valor da média.
+- Fim do algoritmo.
+
+linguagem artificial:
+Linguagem artificial em algoritmos se refere a uma linguagem específica e estruturada usada para descrever instruções de forma precisa e processável por computadores. Ela possui uma sintaxe rigorosa e um conjunto de regras definidas que os computadores podem entender e executar. Exemplos incluem linguagens de programação como Python, C++ e Java, que permitem aos desenvolvedores traduzir algoritmos em código que máquinas podem processar e executar.
+ex: def calcular_media(nota1, nota2):
+    media = (nota1 + nota2) / 2
+    return media
+
+nota1 = float(input("Digite a primeira nota: "))
+nota2 = float(input("Digite a segunda nota: "))
+media_calculada = calcular_media(nota1, nota2)
+print("A média é:", media_calculada)
+
+pseudolinguagem:
+Pseudolinguagem em algoritmos é uma forma intermediária entre a linguagem natural e as linguagens de programação, usada para representar algoritmos de maneira mais próxima à linguagem humana, mas ainda com uma estrutura que sugere operações computacionais. Ela é mais simples que uma linguagem de programação completa, ajudando a planejar e esboçar a lógica de um algoritmo antes de traduzi-lo para uma linguagem de programação real. Pseudocódigos usam convenções específicas para descrever os passos, permitindo uma compreensão clara e rápida do fluxo do algoritmo.
+
+ex: Algoritmo CalcularMédia
+   Ler nota1, nota2
+   media <- (nota1 + nota2) / 2
+   Escrever "A média é: ", media
+Fim Algoritmo
+
+Linguagens de baixo nível são próximas à linguagem de máquina e lidam diretamente com o hardware, como Assembly. Elas oferecem controle detalhado, mas são complexas e específicas para a arquitetura. Linguagens de alto nível, como Python e Java, são mais abstratas e próximas da linguagem humana. Elas facilitam a codificação complexa, abstraem detalhes de hardware e permitem desenvolvimento rápido. As linguagens de alto nível são traduzidas para baixo nível antes da execução, equilibrando expressividade com eficiência.
+
+
+
+
+
+
+
+
+
+
+
