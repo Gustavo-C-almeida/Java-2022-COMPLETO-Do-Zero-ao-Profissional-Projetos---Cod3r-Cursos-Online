@@ -1,0 +1,17 @@
+Nesse primeiro módulo veremos os fundamentos da linguagem
+
+É necessário ver esse modo pois a parte básica não é básico no sentido de fácil, é básico no sentido de Formar uma base da linguagem, O que é extremamente importante para que lá na frente possamos sempre criar codigos e arquivos estruturados dentro do padrão.
+
+Rever os fundamentos de uma linguagem de programação é crucial para manter uma base sólida de conhecimento. Isso possibilita construir códigos mais robustos, eficientes e de fácil manutenção. Compreender os conceitos básicos é essencial para resolver problemas de maneira estruturada, otimizar algoritmos e se adaptar a novas linguagens. Além disso, essa prática aprimora a habilidade de identificar erros e ajuda a se destacar em entrevistas técnicas e desafios de programação.
+
+O que vamos ver:
+Estrutura básica de um arquivo ou programa em Java, Sintaxe, regras, formas de organização da linha de código, Definir conjuntos de linhas ou blocos, Variáveis, constantes, Exibir dados no console, input, Operadores aritméticos, Operadores lógicos
+
+Todos os módulos terão desafios  dentro do que já foi abordado.
+Quando o curso for evoluindo veremos desafios mais difíceis porém Agregando tudo que a gente já viu Anteriormente, Então mesmo que esteja aumentando a dificuldade dos Desafios,  dentro do desafio ainda terá algo que já vimos.
+
+
+
+
+
+

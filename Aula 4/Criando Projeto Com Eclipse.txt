@@ -1,0 +1,25 @@
+Quando iniciamos os Eclipse aparece uma tela escrito “select a directory as workspace”,  O que é o workspace? O workspace no Eclipse é um diretório onde todos os projetos, arquivos de configuração e recursos relacionados ao desenvolvimento são organizados. Funciona como um ambiente isolado para gerenciar e desenvolver aplicativos. Cada projeto fica em sua própria pasta dentro do workspace, permitindo fácil navegação e manipulação de arquivos. Ele ajuda a separar diferentes projetos, evitando conflitos entre eles. Imagine um escritório com várias mesas (projetos) em uma sala (workspace). Cada mesa contém papéis, canetas e documentos relacionados ao projeto, todos mantidos de forma organizada.
+Podemos definir o workspace como uma pasta que já temos criada
+
+É possível criarmos outro workspace, Ou seja selecionarmos uma outra pasta e definirmos como workspace:
+File> Switch workspace> Other 
+
+Perspectivas: window> perpective> Open perpective.
+Java e outras linguagens.
+
+Usarei Java
+
+Você pode tirar todos os detalhes como: declaration, problens, ou colocarlos denovo em: Window, ShowView
+
+Criando um projeto Java: 
+Create Java Project
+Project name,
+Location, vem marcado UseDefault location, porém pode desmarcar se quiser e selecionar outra localização.
+opção padrão, java mais recente
+
+separar pastas do codigo e de classe, depois vamos ver mais sobre.
+desmarcaremos o module, lá na frente veremos mais sobre modulos.
+Projeto criado:
+/Exercicios:
+KRE system Library,
+src
