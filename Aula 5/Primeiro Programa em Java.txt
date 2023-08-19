@@ -1,0 +1,78 @@
+Um dos caminho é new>class
+Package: dentro de um package pode ter varios arquivos, representa uma pasta pasta em que todos os arquivos se relacionam, chamaremos de fundamentos.
+Ao nomear classes em arquivos no Java, usaremos CamelCase.
+PrimeiroPrograma.
+
+Aparecer sugestões de autocomplete no Eclipse: ctrl espaço
+
+codigo padrão de Java: public class PrimeiroPrograma {
+	public static void main(String[] args) {
+		System.out.println("qualquer texto");
+	}
+}
+
+O java é case sensitive, ou seja, se a forma correta de se escrever é maiusculo, não funciona minúsculo.
+no eclipse tem como arrastar para fora o console
+
+no Java a linha de codigo, ou sentença sempre deve terminar com ponto e virgula
+
+Você pode quebrar a linha se for no . ou ex: println
+("test") pode
+System.
+Out.
+println
+
+blocos de codigo:
+{
+
+    Organização
+    {
+        Organização
+    }
+
+    {
+        Organização
+    }
+
+}
+
+Reorganizar o codigo automatico: ctrl Shift F
+
+exemplo de organização de arquivos: 
+Project: Clinica{
+    Packages:
+    Administração{
+        Agenda.java
+    }
+    Pessoas{
+        Class:
+        Medico.java
+        Paciente.java
+        Funcionario.java
+    }
+    Sistema{
+        TelaPrincipal.java
+        TelaAgendamento.java
+    }
+}
+
+Project: Faculdade{
+    Administração{
+        Horarios.java
+    }
+    Pessoas{
+        Class:
+        Aluno.java
+        Professor.java
+        Funcionario.java
+    }
+    Sistema{
+        TelaPrincipal.java
+        TelaBoletim.java
+        TelaQuadroAulas.java
+    }
+}
+
+
+
+

@@ -1,0 +1,7 @@
+escrever System.out.println(); rapido:
+syso + ctrl + espaço
+
+testar Java no CMD:
+CMD
+escreva:
+JShell

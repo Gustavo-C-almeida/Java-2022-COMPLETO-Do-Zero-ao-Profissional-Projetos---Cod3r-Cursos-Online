@@ -1,0 +1,47 @@
+comentario com uma linha no java:
+\\ comentario exemplo
+
+caso apareça alguma correção pode selecionar disable spell checking
+
+comentario em paragrafo:
+/*
+*/
+
+comentar linha rapido: ctrl /, funciona como ctrl ; do js
+
+se der /* e enter ele auto completa assim:
+/*
+*
+*/
+
+adicionando um * para cada comentario
+
+/** gera um java doc.
+
+oque é javadoc: 
+
+A documentação do java que pode ser encontrada na web é gerada a partir desse javadoc que geramos no codigo, A documentação é o processo de criação de explicações claras e abrangentes sobre o funcionamento, uso e sintaxe da linguagem. Isso inclui tutoriais, exemplos de código e descrições de funções. A documentação ajuda os programadores a entenderem e usarem a linguagem de forma eficaz.
+
+temos como definir o author com: @author: SeuNome
+
+colocar email: <@guhh@gmail>
+
+foi criado em qual versão do sistema: @since 4.5
+
+colocar outros link ou observações:
+@see
+
+e usar o primeiro paragrafo para escrever o que deseja, dentro dos objetivos da documentação
+
+Filosofia do comentario:
+Muito cuidado com a poluição do codigo quando usar comentarios, então só coloque comentarios relevantes.
+
+desvantagens de muito comentario:
+Perda de tempo,
+Poluição de codigo,
+Por incrivel que pareça é mais interessante em focar na organização e logica do código no que um codigo cheio de gambiarra e comentários para tentar explicar.
+
+comentário importante quando necessário e relevante, com o minimo de texto.
+não usar por que acha bonitinho
+
+Livro Codigo Limpo

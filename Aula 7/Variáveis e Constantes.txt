@@ -1,0 +1,25 @@
+Definindo váriavel em java:
+1. tipo da váriavel, 2. nome 3. valor
+
+ex:
+int raio = 3;
+
+double raio = 3.4
+
+como definir um valor fixo para algo:
+final double pi = 3.14159;
+o trecho "final" define 
+
+caso tente alterar a variavel gerara um erro: The final local variable pi cannot be assigned.
+
+convenção: sempre que definir uma variavel como final, ou não pode ser alterada colocar como Maiuscula nesse caso "PI"
+
+Convenção na programação são regras e diretrizes sobre como escrever código de forma consistente. Isso inclui estilo de nomenclatura, formatação, padrões e organização. Imagine um grupo tocando a mesma música: a partitura é a convenção, todos seguem a mesma estrutura, ritmo e notas. Isso torna a música harmoniosa.
+
+para redefinir um valor novamente ex:
+raio = 10
+area = PI * raio * raio
+
+concatenação no java:
+
+"" + variavel
